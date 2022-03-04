@@ -11,6 +11,7 @@ pls let me push
 hello
 
 ```mermaid
-sequenceDiagram
-  A-->B: Works!
+graph TD;
+  A-->B;
+  A-->C;
 ```
