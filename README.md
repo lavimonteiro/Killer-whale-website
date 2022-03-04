@@ -18,6 +18,6 @@ graph TD;
 
 ```mermaid
 graph TD;
-A-->B;
-A-->C;
+A-->B; me
+A-->C; you
 ```
