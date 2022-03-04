@@ -9,3 +9,9 @@ anything
 pls let me push
 
 hello
+
+graph TD;
+A-->B;
+A-->C;
+B-->D;
+C-->D;
