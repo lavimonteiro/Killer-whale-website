@@ -17,7 +17,15 @@ graph TD;
 ```
 
 ```mermaid
-graph TD;
-Me-->You;
-Me-->Nothing;
+sequenceDiagram
+    participant Lavi
+    participant Cham
+    Lavi->>Rabia: Hello Rabia, how are you?
+    loop Healthcheck
+        Rabia->>Rabia: Fight against hypochondria
+    end
+    Note right of Rabia: Rational thoughts <br/>prevail!
+    Rabia-->>Lavi: Great!
+    Lavi->>Cham: How about you?
+    Cham-->>Lavi: Jolly good!
 ```
